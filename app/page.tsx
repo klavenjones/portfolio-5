@@ -29,14 +29,16 @@ export default function Home() {
             transition={{ duration: 1, delay: 2 }}
             className="flex flex-col gap-5 items-center"
           >
-            <p className="text-center text-2xl flex-shrink leading-none p-0">
+            <p className="dark:text-white text-black text-center text-lg md:text-2xl flex-shrink leading-none p-0">
               Need to get in touch with me?
             </p>
-            <p className="text-center text-2xl">Feel free to connect.</p>
-            <ul className="flex gap-4 mt-4 flex-grow text-lg">
+            <p className="dark:text-white text-black text-center text-lg md:text-2xl">
+              Feel free to connect.
+            </p>
+            <ul className="flex gap-4 mt-4 flex-grow text-base md:text-lg">
               <li>
                 <a
-                  className="transition-all duration-500 text-white hover:text-linkedin-blue"
+                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-linkedin-blue"
                   href="https://linkedin.com/in/klaven-jones"
                   target="_blank"
                 >
@@ -45,7 +47,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="transition-all duration-500 text-white hover:text-gray-500"
+                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-gray-500"
                   href="https://github.com/klavenjones"
                   target="_blank"
                 >
@@ -54,7 +56,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="transition-all duration-500 text-white hover:text-twitter-blue"
+                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-twitter-blue"
                   href="https://twitter.com/Klavenj"
                   target="_blank"
                 >
@@ -63,7 +65,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="transition-all duration-500 text-white hover:text-email-red"
+                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-email-red"
                   href="mailto:hey@klavenjones.com"
                 >
                   Email

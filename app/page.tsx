@@ -38,7 +38,7 @@ export default function Home() {
             <ul className="flex gap-4 mt-4 flex-grow text-base md:text-lg">
               <li>
                 <a
-                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-linkedin-blue"
+                  className="dark:text-white text-gray-400 transition-all duration-500 text-white hover:text-linkedin-blue"
                   href="https://linkedin.com/in/klaven-jones"
                   target="_blank"
                 >
@@ -47,7 +47,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-gray-500"
+                  className="text-gray-400 transition-all duration-500 text-white hover:text-gray-500"
                   href="https://github.com/klavenjones"
                   target="_blank"
                 >
@@ -56,7 +56,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-twitter-blue"
+                  className="text-gray-400 transition-all duration-500 text-white hover:text-twitter-blue"
                   href="https://twitter.com/Klavenj"
                   target="_blank"
                 >
@@ -65,7 +65,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="dark:text-white text-black transition-all duration-500 text-white hover:text-email-red"
+                  className="text-gray-400 transition-all duration-500 text-white hover:text-email-red"
                   href="mailto:hey@klavenjones.com"
                 >
                   Email

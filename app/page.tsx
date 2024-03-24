@@ -38,7 +38,7 @@ export default function Home() {
             <ul className="flex gap-4 mt-4 flex-grow text-base md:text-lg">
               <li>
                 <a
-                  className="dark:text-white text-gray-400 transition-all duration-500 text-white hover:text-linkedin-blue"
+                  className="text-gray-400 transition-all duration-500 text-white hover:text-linkedin-blue"
                   href="https://linkedin.com/in/klaven-jones"
                   target="_blank"
                 >

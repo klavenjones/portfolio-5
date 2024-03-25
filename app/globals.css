@@ -17,7 +17,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -32,4 +31,8 @@ body {
   }
 }
 
-
+@layer base {
+  a {
+    @apply text-black dark:text-white;
+  }
+}
